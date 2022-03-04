@@ -139,3 +139,78 @@ html, body {
     font-weight: 300;
     margin-top: 10px;
 }
+
+/*Thor Section*/
+.thor {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.thor-paragraph {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 65%;
+}
+
+.thor-thunder {
+    color: #1f2937;;
+    font-size: 36px;
+    align-self: flex-end;
+    margin-right: 250px;
+}
+
+/*Action Section*/
+.action{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    gap: 100px;
+    background-color: #0d6efd;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+}
+
+.action-call, .action-sign{
+    color: #f9faf8;
+    font-size: 22px;
+}
+
+.action-sign {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.action-btn {
+    width: 130px;
+    height: 40px;
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #0d6efd;
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    height: 100px;
+    padding: 40px;
+}
+
+.copyright {
+    color: #f9faf8;
+    font-size: 17px;
+    font-weight: 400;
+}
